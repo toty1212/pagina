@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="stylebasic.css">
+    <title>Bootstrap Example</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylebasic.css">
+</head>
+
+<body>
+    <form>
+        <div class="form-row">
+            <div class="col-md-6">
+                <label for="inputPassword4">Nombre</label>
+                <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4">Apellido</label>
+                <input type="text" class="form-control" placeholder="Last name">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Confirmar Password</label>
+                <input type="password" class="form-control" id="inputPassword6" placeholder="Confirmar Password">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+        </div>
+        <div class="form row">
+        <div class="form-group col-md-6">
+            <label for="inputAddress">Direccion</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Santiago, la florida">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputAddress2">Telefono</label>
+            <input type="text" class="form-control" id="inputTelefono" placeholder="+56989784148">
+        </div>
+    </div>
+
+        <div class="form-group col-md-4">
+            <label for="inputState">¿Que animal desea?</label>
+            <select id="inputState" class="form-control">
+                <option selected>...</option>
+                <option>Perro</option>
+                <option>Gato</option>
+            </select>
+            <h1 style="color: black;">¿Ya tiene animales?</h1>
+            <div class="form-check col-md-6">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                    checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    <h3>Si</h3>
+                </label>
+            </div>
+            <div class="form-check col-md-6">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    <h3>No</h3>
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary col-md-4">Contactar</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
